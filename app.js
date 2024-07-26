@@ -39,9 +39,20 @@ if(spaceOccupied < monitorCutOff){
 console.log("Time to Prune!!")
 }
 
+// Part 2 -  for 100 plants space required
 
+let plants100 = 100;
+let spaceFor100 = plants100 *0.8;
+console.log(spaceFor100);
 
+for(let i=0;i<10;i++){
+    plants100= plants100 *2;
+  }
 
+  console.log(plants100);
+
+let rad = Math.sqrt((plants100 * 0.8)/3.14);
+console.log(rad);
 
 
 
